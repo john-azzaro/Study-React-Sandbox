@@ -46,7 +46,15 @@ Phase 4: Update content to create a minimal starting point for the application:
 
         export default App;
     -------------------------------------------------------------------------
+  2. In ./src/index.js, replace what is there by defualt with the following code:
+    -------------------------------------------------------------------------
+        import React from 'react';
+        import ReactDOM from 'react-dom';
+        import App from './App';
+        import './index.css';
 
+        ReactDOM.render(<App />, document.getElementById('root'));  
+    -------------------------------------------------------------------------
 
 
 
