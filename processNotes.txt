@@ -20,6 +20,12 @@ Starting a React app from scratch
 
 Phase 1: In gitbash, run "npx create-react-app react-sandbox".
   * This creates the react application (may take at least a few minutes).
+  * When this is done installing, remember to cd into it since its in a nested folder.
+
+Phase 2: Run "npm install".
+  * This is going to install all the dependencies form the create-react-app.
+
+Phase 3: 
 
 
 
