@@ -25,7 +25,11 @@ Phase 1: In gitbash, run "npx create-react-app react-sandbox".
 Phase 2: Run "npm install".
   * This is going to install all the dependencies form the create-react-app.
 
-Phase 3: 
+Phase 3: Remove excess files from the directory:
+  * In gitbash, there are three files you want to remove:
+    1. rm ./src/serviceWorker.js
+    2. rm ./src/App.css
+    3. rm ./src/logo.svg
 
 
 
