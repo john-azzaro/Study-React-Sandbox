@@ -31,7 +31,21 @@ Phase 3: Remove excess files from the directory:
     2. rm ./src/App.css
     3. rm ./src/logo.svg
 
+Phase 4: Update content to create a minimal starting point for the application:
+  1. In ./src/App.js, replace what is there by default with this code:
+    -------------------------------------------------------------------------
+        import React from 'react';
 
+        function App() {
+          return (
+            <main className='App'>
+              {/* content goes here */}
+            </main>
+          );
+        }
+
+        export default App;
+    -------------------------------------------------------------------------
 
 
 
