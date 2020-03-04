@@ -15,5 +15,20 @@ one as well so I would urge you to consider at least doing a rough summary for y
 
 
 
+Starting a React app from scratch
+=================================
+
+Phase 1: In gitbash, run "npx create-react-app react-sandbox".
+  * This creates the react application (may take at least a few minutes).
+
+
+
+
+
+
+
+
+
+
 Resources
 ===========
